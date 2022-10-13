@@ -1,0 +1,38 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    hostname="haddock-l.intranet.neotys.com:7100" loadWeight="1"
+    sapSupport="true" standalone="false" supportWANEmulation="false"
+    uid="add15482-98ed-4d59-8e9b-b5f8b997efb5" version="9.0.0;build=20220826-66">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="TAP-Windows Adapter V9 for OpenVPN Connect"
+        enabled="false" isLoopBack="false" name="net4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:90e9:e3e3:a956:45e4%net4">
+            <ip value="fe80:0:0:0:90e9:e3e3:a956:45e4%net4"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Contrôleur Broadcom NetXtreme 57xx Gigabit"
+        enabled="false" isLoopBack="false" name="eth0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="haddock-l.intranet.neotys.com">
+            <ip value="10.0.4.126"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:dde9:d9ff:7e2b:6f0c%eth0">
+            <ip value="fe80:0:0:0:dde9:d9ff:7e2b:6f0c%eth0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

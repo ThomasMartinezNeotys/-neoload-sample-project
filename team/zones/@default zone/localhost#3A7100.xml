@@ -1,0 +1,39 @@
+<lg-host browserBasedSupport="true" citrixSupport="false"
+    hostname="localhost:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="e4178470-f38b-4df7-b4b2-94ab4609e002" version="9.1.0;build=20221010-7">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="wlo1" enabled="false"
+        isLoopBack="false" name="wlo1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="thomas-latitude-5510.lan">
+            <ip value="192.168.1.3"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2001:861:e3d0:3100:27b9:9610:a0:bdfd%wlo1">
+            <ip value="2001:861:e3d0:3100:27b9:9610:a0:bdfd%wlo1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2001:861:e3d0:3100:6258:a95:4f0:4957%wlo1">
+            <ip value="2001:861:e3d0:3100:6258:a95:4f0:4957%wlo1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2001:861:e3d0:3100:860a:5e4d:d8e8:79b1%wlo1">
+            <ip value="2001:861:e3d0:3100:860a:5e4d:d8e8:79b1%wlo1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="2001:861:e3d0:3100:955e:fa59:81b8:3dc%wlo1">
+            <ip value="2001:861:e3d0:3100:955e:fa59:81b8:3dc%wlo1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:5acd:52cd:b3f8:7156%wlo1">
+            <ip value="fe80:0:0:0:5acd:52cd:b3f8:7156%wlo1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="lo" enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1%lo">
+            <ip value="0:0:0:0:0:0:0:1%lo"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>
